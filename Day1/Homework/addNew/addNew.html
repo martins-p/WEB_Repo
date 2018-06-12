@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Awesome page</title>
+</head>
+
+<body>
+    <a href="../index.html">
+        <-- Back</a>
+            <h3>Add ToDo item.</h3>
+            <form method="post" action="">
+                    <div>
+                            <label for="username-input">Username: </label>
+                            <input type ="text" id="username-input" value="random user" placeholder="Ievadi lietotajvardu" name="super-username">
+                        </div>
+                        <div>
+                            <label>Password: </label>
+                            <input type ="password" name="super-password">
+                        </div>
+                <div>
+                    <label for="username-input">Task name: </label>
+                    <br>
+                    <input type="text" id="username-input" placeholder="Please enter name...">
+                </div>
+                <br>
+                <div>
+                    <label>Task description: </label>
+                    <br>
+                    <textarea rows="2" placeholder="Please enter description..."></textarea>
+                </div>
+                <br>
+                <div>
+                    <label>Task: </label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="checkbox">is completed</label>
+                </div>
+                <br>
+                <div>
+                        <label>Video killed the </label>
+                        
+                        <label>radio </label><input type="radio" name="radio">
+                        <label>super</label><input type="radio" name="radio">
+                        <label> star</label>
+                        
+                    </div>
+                    <br>
+                <div>
+                    <label>Drop it down!</label>
+                    <br>
+                    <select name="DropDown">
+                        <option ></option>
+                        <option >Nice!</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+
+                    <input type="submit" value="Saglabāt">
+                    <button type="button" onclick="alert('You died')">Do not press</button>
+
+                </div>
+                <br>
+            </form>
+
+            <form action="/action_page.php" oninput="x.value=parseInt(a.value)">
+                Rate me: 0
+                <input type="range" id="a" name="a" value="0s" max="10">
+                <output name="x" for="a"></output>
+
+            </form>
+
+</body>
+
+</html>

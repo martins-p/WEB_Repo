@@ -1,0 +1,149 @@
+div {
+    color: green;
+}
+p {
+    color:  green;
+}
+.red-p {
+    color: red;
+}
+p span{
+    color: green;
+}
+p.blue-p {
+    color: blue;
+}
+p.blue-p span {
+    color: yellow;
+}
+p strong span {
+    color: pink;
+}
+p[data-foo="bar"]{
+    color: violet;
+}
+p.super-strange-paragraph:hover span{
+ 
+    color: rgb(255, 0, 0);
+}
+#rebel {
+    color: blueviolet
+}
+#rebel {
+    
+    font-family: futura;
+    font-style: italic;
+    
+    width:100%;
+    
+    margin: 0 auto;
+    text-align: center;
+    
+    color:#313131;
+    font-size:28px;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation:colorchange 5s infinite alternate;
+    
+    
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #4bb9cc;
+    }
+    
+    20% {
+      
+      color: #1abc5d;
+    }
+    
+    30% {
+      
+      color: #ecdf26;
+    }
+    
+    40% {
+      
+      color: rgb(255, 60, 0);
+    }
+    
+    50% {
+      
+      color: #af3394;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }
+
+  #epic {
+    
+    font-family: futura;
+    font-style: italic;
+    
+    width:100%;
+    
+    margin: 0 auto;
+    text-align: center;
+    
+    color:#313131;
+    font-size:28px;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation:colorchange1 1s infinite alternate;
+    
+    
+  }
+
+  @-webkit-keyframes colorchange1 {
+    0% {
+      
+      color: rgb(0, 0, 0);
+    }
+    
+       25% {
+      
+      color: #ffffff;
+    }
+    50% {
+      
+        color: #000000;
+      }
+      75% {
+      
+        color: #ffffff;
+      }
+      100% {
+        
+          color: #000000;
+        }
+}
+

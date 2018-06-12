@@ -1,0 +1,24 @@
+div{
+    color: rgb(3, 10, 54);
+}
+body{
+    background: #DDFFBE;
+}
+div div {
+    color: rgb(167, 167, 22);
+}
+.special-element {
+    color: red;
+}
+input {
+    color: rgb(111, 122, 11);
+}
+input[value="input2"]{
+    color: rgb(94, 7, 36);
+}
+#some-input{
+    color: orange;
+}
+a:hover{
+    color:red;
+}
