@@ -1,0 +1,129 @@
+#top-bar {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid black;
+}
+#main-container {
+    height: 77vh;
+    border: 1px solid black;
+    position: relative;
+}
+#bottom-bar {
+    height: 10vh;
+    border: 1px solid black;
+}
+.menu-bar {
+    margin: 10px;
+    float: right;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.carousel {
+    border: 1px dotted black;
+    height: 70%;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+.carousel-image {
+    position: relative;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+     
+}
+.carousel-image img {
+    position: relative;
+    margin:auto;
+    width: 100%;
+    
+}
+
+#most-recent-note {
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#most-recent-articles {
+    border: 1px solid red;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-height: 25%;
+    bottom: 0px;
+}
+#most-recent-articles .recent-article {
+    border: 1px solid black;
+    overflow: hidden;
+    margin: 30px 10px 20px 10px;
+    float: left;
+    padding: 5px;
+    max-width: 30%;
+    box-sizing: border-box;  
+}
+
+.recent-article-text {
+    position:relative;
+    max-height: 90%;
+    margin: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    
+}
+.recent-img img {
+    /* display: block; */
+    margin: 5px;
+    width: 30%;
+    max-height: 90%;
+    float: left;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+#articles-container {
+margin:auto;
+border: 1px solid red;
+
+}
+
+#articles-container ul{
+    
+        list-style-type: none;
+        margin: 5%;
+      
+}
+
+.article-main {
+    position: relative;
+    max-width: 80%;
+    padding: 10px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.article-img-wrapper {
+    position: relative;
+    max-width: 15%;
+    max-height: 90%;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    object-fit: cover; 
+}
+
+.article-img-wrapper img {
+    width:100%;
+    height: 100%;
+}
+.article-main p {
+    position: relative;
+}
